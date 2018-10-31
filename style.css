@@ -154,7 +154,12 @@ li {
   margin-top: -40px;
   text-align: center;
   text-decoration: none;
-  color: black
+  color: black;
+}
+
+.privacy_policy a {
+  color: black;
+  text-decoration: none;
 }
 
 .btm-bar {
