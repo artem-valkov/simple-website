@@ -1,32 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Nunito, sans-serif;
   font-weight: bold;
+  max-width: 800px;
+  margin: auto;
 }
 
-header {
-  width: 100%;
+.header {
+
+  margin: auto;
   background-color: #191919;
-  height: 80px;
+  height: 50px;
   padding-top: 0px;
   padding-bottom: 10px;
   color: white;
 }
 
-header a {
+.header a {
   color: white;
 }
 
 .top-bar {
-  margin-top: 40px;
+  margin-top: 20px;
+  color: black;
 }
-
-main {
-  width: 90%;
-  margin: auto;
-}
-
-
 
 .first {
   margin-top: 60px;
@@ -41,23 +40,25 @@ main {
   float: left;
   color: black;
   margin-left: 30px;
+
 }
 
-ul {
+.ul a {
   float: right;
   margin: 0;
 }
 
-ul a {
+.menu a {
   color: black;
   text-decoration: none;
 }
 
-li {
+.menu_links {
   display: inline;
   list-style-type: none;
   margin-right: 30px;
   color: black;
+  float: right;
 }
 
 .top-bar {
@@ -66,7 +67,7 @@ li {
 
 .first {
   text-align: center;
-  font-size: 80px ;
+  font-size: 60px ;
   padding-top: 50px;
   width: 100%;
 }
@@ -163,11 +164,16 @@ li {
 }
 
 .btm-bar {
-  width: 94%;
   margin: auto;
   padding-bottom: 30px;
   color: black;
 }
 .btm-bar ul {
-  color: black-and-white;
+  color: black;
+}
+
+
+.mail {
+  text-decoration: none;
+  color: black;
 }
